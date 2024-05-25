@@ -14,7 +14,7 @@ public class ProfileController {
     private final Environment env;
     private static final String NULL = "";
 
-    @GetMapping("/profile")
+    @GetMapping("/profile1")
     public String getProfile() {
         return Arrays.stream(env.getActiveProfiles())
                 .findFirst()
